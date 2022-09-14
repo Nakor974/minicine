@@ -1,7 +1,9 @@
 @extends('layout.app')
 
   @section('main')
-      
+
+  {{-- <x-newFirstComponent /> --}}
+
   <div class="relative px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
     <div class="relative mx-auto max-w-7xl">
       <div class="grid max-w-lg gap-5 mx-auto lg:grid-cols-3 lg:max-w-none">
@@ -11,6 +13,7 @@
             <img class="object-cover w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvgVKykeMLittNLZJuzm0l2iVsX_SkpupquQ&usqp=CAU" alt="">
           </div>
           <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+
             <div class="flex-1">
                 <p class="text-xl font-bold text-neutral-600">THE NORTHMAN</p>
             </a>
@@ -18,6 +21,7 @@
             </div>
           </div>
         </div>
+
         
         <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
           <div class="flex-shrink-0">
@@ -51,8 +55,8 @@
   </div>
 
   @endsection
-</body>
-</html>
+
+
 
 
     

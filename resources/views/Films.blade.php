@@ -1,5 +1,7 @@
 
+@extends('layout.app')
 
+@section('main')
 
 
 
@@ -50,3 +52,4 @@
       </div>
     </div>
   </div>
+  @endsection

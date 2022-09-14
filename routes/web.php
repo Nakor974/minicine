@@ -41,10 +41,4 @@ Route::get('addfilm', function () {
     return view('addfilm');
 });
 
-Route::get('footer', function () {
-    return view('footer');
-});
 
-Route::get('nav', function () {
-    return view('nav');
-});

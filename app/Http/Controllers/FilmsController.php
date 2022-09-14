@@ -18,6 +18,7 @@ class FilmsController extends Controller
             'films' => $films,
             'réalisateur' => $réalisateurs,
             'salle' => $salles,
+            'test' => "1234456"
         ]);
     }
 }

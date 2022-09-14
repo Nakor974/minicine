@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>simplesocial</title>
+    <title>minicine</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-@include('nav')
 
+
+
+<body>
+    <header> 
+@include('layout.nav')
+    </header>
 
     <main>
         @yield('main')
     </main>
 
-@include('footer')
+
+
+    <footer>
+@include('layout.footer')
+
+    </footer>
 
 </body>
 </html>
